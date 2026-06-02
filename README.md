@@ -289,11 +289,11 @@ This documentation is living and will evolve as the product develops. Updates sh
 | Section | Status | Completeness | Last Updated |
 |---------|--------|--------------|--------------|
 | 01. Executive Summary | ✅ Complete | 100% | 2026-06-02 |
-| 02. PRD | 🔄 In Progress | 60% | 2026-06-02 |
-| 03. GDD | 🔄 In Progress | 60% | 2026-06-02 |
+| 02. PRD | ⏳ Planned | 0% | - |
+| 03. GDD | ✅ Complete | 100% | 2026-06-02 |
 | 04. SRS | ⏳ Planned | 0% | - |
-| 05. System Architecture | ⏳ Planned | 0% | - |
-| 06. Database Design | ⏳ Planned | 0% | - |
+| 05. System Architecture | ✅ Complete | 100% | 2026-06-02 |
+| 06. Database Design | ✅ Complete | 100% | 2026-06-02 |
 | 07. API Specification | ⏳ Planned | 0% | - |
 | 08. Real-Time System | ⏳ Planned | 0% | - |
 | 09. Game Engine | ⏳ Planned | 0% | - |
