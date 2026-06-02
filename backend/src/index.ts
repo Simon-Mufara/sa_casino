@@ -7,9 +7,8 @@ import morgan from 'morgan';
 import { Server as SocketIOServer } from 'socket.io';
 import { config } from './config';
 import { logger } from './shared/utils/logger';
-import { errorHandler } from './middleware/error-handler';
-import { notFoundHandler } from './middleware/not-found-handler';
-import { setupRoutes } from './routes';
+import { errorHandler, notFoundHandler } from './middleware/error-handler.middleware';
+import apiRoutes from './routes';
 import { DatabaseConnection } from './database/connection';
 import { RedisClient } from './database/redis-client';
 
@@ -85,7 +84,8 @@ class Application {
    * Setup application routes
    */
   private setupRoutes(): void {
-    setupRoutes(this.app, this.io);
+    // API routes
+    this.app.use('/api', apiRoutes);
 
     // 404 handler
     this.app.use(notFoundHandler);
