@@ -1,5 +1,7 @@
 import { Router } from 'express';
 import authRoutes from '../modules/auth/auth.routes';
+import userRoutes from '../modules/user/user.routes';
+import matchRoutes from '../modules/match/match.routes';
 
 const router = Router();
 
@@ -10,6 +12,12 @@ const router = Router();
 
 // Authentication routes
 router.use('/auth', authRoutes);
+
+// User routes
+router.use('/users', userRoutes);
+
+// Match routes
+router.use('/matches', matchRoutes);
 
 // Health check
 router.get('/health', (req, res) => {
