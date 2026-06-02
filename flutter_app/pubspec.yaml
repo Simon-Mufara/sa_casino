@@ -1,0 +1,103 @@
+name: khasino
+description: Khasino - Digital South African Card Game Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
+
+  # Navigation
+  go_router: ^10.0.0
+
+  # Network
+  dio: ^5.3.2
+  socket_io_client: ^2.0.3+1
+  connectivity_plus: ^4.0.2
+
+  # Local Storage
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^8.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Authentication
+  flutter_appauth: ^6.0.2
+  local_auth: ^2.1.6
+
+  # UI
+  cupertino_icons: ^1.0.5
+  google_fonts: ^5.1.0
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  lottie: ^2.6.0
+
+  # Utils
+  intl: ^0.18.1
+  uuid: ^3.0.7
+  equatable: ^2.0.5
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  logger: ^2.0.1
+
+  # Analytics & Monitoring
+  firebase_core: ^2.15.0
+  firebase_analytics: ^10.4.5
+  firebase_crashlytics: ^3.3.5
+  sentry_flutter: ^7.9.0
+
+  # Payments
+  in_app_purchase: ^3.1.7
+
+  # Device Features
+  image_picker: ^1.0.2
+  permission_handler: ^10.4.3
+  device_info_plus: ^9.0.2
+  package_info_plus: ^4.0.2
+
+  # Internationalization
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting
+  flutter_lints: ^2.0.2
+
+  # Code Generation
+  build_runner: ^2.4.6
+  riverpod_generator: ^2.3.0
+  freezed: ^2.4.1
+  json_serializable: ^6.7.1
+  hive_generator: ^2.0.1
+
+  # Testing
+  mockito: ^5.4.2
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/audio/
+
+  fonts:
+    - family: Khasino
+      fonts:
+        - asset: assets/fonts/Khasino-Regular.ttf
+        - asset: assets/fonts/Khasino-Bold.ttf
+          weight: 700
