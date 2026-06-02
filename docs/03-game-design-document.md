@@ -420,10 +420,10 @@ Turn 2: (Later) Play 7 to capture
 #### 6.4.1 Augmenting Own Build
 
 **Sources:**
-- ✅ Table cards (loose cards)
-- ✅ One card from hand
-- ✅ Top card of opponent's capture pile
-- ❌ Own/partner capture pile cards
+- Table cards (loose cards)
+- One card from hand
+- Top card of opponent's capture pile
+- Own/partner capture pile cards (not allowed)
 
 **Process:**
 ```
